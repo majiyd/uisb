@@ -1,0 +1,21 @@
+.main-content{
+  position: relative;
+  left:390px;
+  top:0px;
+  text-align: center;
+  width:800px;
+  font-size: 18pt;
+}
+.main-content > h1{
+
+}
+#the-board{
+position: relative;
+top:100px;
+}
+
+footer{
+  position: relative;
+  top:100px;
+  padding-top: 20px;
+}

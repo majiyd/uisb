@@ -1,0 +1,106 @@
+
+div.name-and-motto{
+  position: relative;
+  left:370px;
+  font-family: candara;
+  font-size: 20pt;
+  color:black;
+}
+#motto{
+  position: relative;
+  bottom: 35px;
+  left: 123px;
+}
+#logo{
+  z-index: 5001;
+  position: fixed;
+  left:30px;
+  top:10px;
+}
+.main{
+  display: none;
+  position: absolute;
+  top:150px;
+  left: 10px;
+
+}
+ul{
+  list-style-type: none;
+  padding: 0px;
+}
+#nav-div{
+  background:-webkit-linear-gradient(top, white 20%, #333333 30%);
+  background:-moz-linear-gradient(top, white 20%, #333333 30%);
+  width: 200px;
+  padding: 10px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  -webkit-box-shadow: 2px 2px 4px rgba(74, 50, 8, 0.72);
+  -moz-box-shadow: 2px 2px 4px rgba(74, 50, 8, 0.72);
+  z-index: 5000;
+
+}
+.nav-bar{
+  list-style-type: none;
+  margin-left: -10px;
+  background-color: #333333;
+  padding: 10px;
+  width: 200px;
+  position: fixed;
+  top:110px;
+
+
+}
+.nav-list{
+  font-family: delicious;
+  display: block;
+
+}
+.nav-list > a{
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align:left;
+  background-color: #333333;
+  font-size: 25px;
+
+}
+.active > a{
+  background-color: #817568;
+  color: white;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0,0.3)  inset;
+  -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0,0.3)  inset;
+}
+#tag{
+  position: relative;
+  left:80px;
+}
+.tags{
+  list-style-type: none;
+  position: relative;
+  left: 40px;
+  margin: 10px;
+  border: 2px groove #346abc;
+  width:500px;
+}
+.tags-items {
+  margin: 10px;
+  padding: 10px;
+  background-color: #d41968;
+
+}
+.tags-items > a{
+  display: block;
+  color:white;
+}
+footer{
+  width: 1200px;
+  height:350px;
+  background: #914162;
+  position: absolute;
+  left: 200px;
+  top:1400px;
+  z-index: -10;
+}

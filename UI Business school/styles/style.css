@@ -1,0 +1,76 @@
+@font-face{
+  font-family: delicious;
+  src:url('../../../fonts/not ttf/Delicious/Delicious-Bold.otf');
+}
+@font-face{
+  font-family: bodyFont;
+  src:url('../../../fonts/Lato/Lato-Black.ttf');
+}
+
+body{
+  display: block;
+  background-color:white;
+  color:black;
+  padding: 0px;
+  margin: 0px;
+  width: 900px;
+  overflow-x: hidden;
+  font-family: delicious;
+}
+
+a{
+  text-decoration: none;
+}
+
+.other-content{
+  position: absolute;
+  left:250px;
+  top:300px;
+  padding: 20px;
+}
+#the-board{
+  text-align: center;
+  width: 1160px;
+  position: absolute;
+  left:220px;
+  top: 750px;
+  height: 300px;
+  overflow: hidden;
+  background: #4f6c87;
+  padding: 10px;
+  z-index: -5;
+}
+.board{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.board > li{
+  float: left;
+  text-align: center;
+  margin-left: 140px;
+}
+.board-members > img{
+  width: 200px;
+  height: 200px;
+}
+
+#vision{
+  text-align: center;
+  position: relative;
+  top:600px;
+  left: 360px;
+}
+#vision  p{
+  position: relative;
+  top:10px;
+}
+
+@media screen and (max-width: 1200px){
+  body{
+
+    overflow-x: scroll;
+
+  }
+
+}
